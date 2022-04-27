@@ -1,0 +1,61 @@
+<!-- q:)->-</: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.4.3/math.min.js"></script>
+    <script src="http://algebra.js.org/javascripts/algebra-0.2.6.min.js"></script>
+</head>
+<body>
+        
+    
+        <H1>Calculadora de subespacios</H1>
+
+        <br>
+        
+        <font face="arial, verdana">
+            <p>Un saludito vespertino, este es un programa que determina si los vectores ingresados son linealmente independientes.</p>
+
+        <p>Por favor ingresa el valor de n</p>
+        <input type="number" id="filas">
+
+        <p>Por favor ingresa el número de vectores que quieres ingresar</p>
+        <input type="number" id="columnas">
+
+        <input type="button" value="crear sistema" onclick="crear()">
+        
+        
+        <div id="Tables" ></div>
+        <br>
+        <br>
+        <div id="independiente" ></div>
+        <br>
+        <br>
+        <div id="Resultados2"></div>
+
+        <br>
+        <br>
+        <div id="Resultados3" ></div>
+        
+    
+        <br>
+        <br>
+        <div id="Resultados"></div>
+        <div id="Soluciones"></div>
+        <div id="Imprimir"></div>
+        </font>
+
+        
+    
+    
+    <script src="jsi/crearLi.js"></script>
+    
+
+    <script src="js/validarNumeros.js"></script>
+    
+
+</body>
+</html>
